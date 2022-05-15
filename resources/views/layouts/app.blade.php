@@ -34,7 +34,7 @@
                                 href="/friends">Friends</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/friends/grup">Group</a>
+                            <a class="nav-link" href="/groups">Group</a>
                         </li>
                     </ul>
                 </div>

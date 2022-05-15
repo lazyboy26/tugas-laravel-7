@@ -2,17 +2,18 @@
 
 namespace App\Models;
 
-use App\Http\Controllers\groupsController;
+use App\Http\Controllers\CobaController;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Friends extends Model
+class groups extends Model
 {
     use HasFactory;
     protected $guarded = [''];
 
-    public function groups()
+    public function friends()
     {
-        return $this->belongsTo('App\Models\groups');
+        return $this->hasMany('App\Models\Friends');
     }
+
 }
